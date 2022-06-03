@@ -12,9 +12,9 @@ This small MATLAB package can help tutors and machine learning beginners reflect
 - Create a folder with your project name in the package directory
 - The folder must contain two other folders: dataset and networks
 - The dataset folder must include three .mat files, namely: train.mat, cross_v.mat and test.mat
-- The train.mat file must include three variables: X (<input features> size: number of experiments * number of features), y (<output> size: number of experiments * 1) and num_labels (<number of output labels>)
-- The cross_v.mat must also contain two variables: Xcv (<validation features> size: number of validation experiments * number of features), ycv (<validation output> size: number of validation experiments * 1)
-- The test.mat must also contain two variables: Xtest (<test features> size: number of test experiments * number of features), ycv (<test output> size: number of test experiments * 1)
+- The train.mat file must include three variables: X (input features size: number of experiments * number of features), y (output size: number of experiments * 1) and num_labels (number of output labels)
+- The cross_v.mat must also contain two variables: Xcv (validation features size: number of validation experiments * number of features), ycv (validation output size: number of validation experiments * 1)
+- The test.mat must also contain two variables: Xtest (test features size: number of test experiments * number of features), ycv (test output size: number of test experiments * 1)
 - You needn't add anything to the networks folder, this will automatically save the networks you create using the package
 - For the sake of illustration, a hand-digit recognition dataset from Andrew's machine learning course on Coursera is added to a project folder called "char_class" 
   
