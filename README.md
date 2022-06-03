@@ -19,9 +19,9 @@ This small MATLAB package can help tutors and machine learning beginners reflect
 - For the sake of illustration, a hand-digit recognition dataset from Andrew's machine learning course on Coursera is added to a project folder called "char_class" 
   
 ### Open NN_make.mlx live script
-- Choose network parameters
+- Choose network parameters and project folder name
 - Click "Build" to initialize your network parameters
 - Select your training parameters
 - Click "Train" to train your network and run diagnostics
 - Click "Test" to test your network using the testing dataset
-- You can click "Save" to save your network in the networks directory of the project 
+- You can click "Save" to save your network object in the "networks" directory of the project 
